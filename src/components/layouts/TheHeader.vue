@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  props: ['title'],
-};
+  props: ['title']
+}
 </script>
 
 <style scoped>
@@ -19,6 +19,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 header h1 {
   color: white;
   margin: 0;
