@@ -17,7 +17,7 @@
   </dialog>
 </template>
 
-<script scoped>
+<script>
 export default {
   props: {
     title: {
@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 div {
   position: fixed;
   top: 0;

@@ -5,7 +5,7 @@
     @close="confirmError"
   >
     <template #default>
-      <p>Unfortuneateley, at least one input value is invalid.</p>
+      <p>Unfortunately, at least one input value is invalid.</p>
       <p>
         Please check all inputs and make sure you enter at least a few
         characters into each input field.
@@ -57,7 +57,7 @@ export default {
 
       if (
         enteredTitle.trim() === '' ||
-        enteredDescription.trim() ||
+        enteredDescription.trim() === '' ||
         enteredUrl.trim() === ''
       ) {
         this.inputIsInvalid = true;
